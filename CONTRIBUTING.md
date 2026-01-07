@@ -34,8 +34,10 @@ This repository hosts media files (images and videos) that are served via jsDeli
 ### Adding Files
 
 1. **Fork and Clone**
+   - First, fork this repository on GitHub
+   - Then clone your fork:
    ```bash
-   git clone https://github.com/dannysombrero/shrimpi-public.git
+   git clone https://github.com/YOUR_USERNAME/shrimpi-public.git
    cd shrimpi-public
    ```
 

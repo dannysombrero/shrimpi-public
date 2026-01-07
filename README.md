@@ -24,14 +24,14 @@ https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@latest/<path-to-file>
 
 **Images:**
 ```html
-<!-- Using latest version -->
-<img src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@latest/images/logo.png" alt="Logo">
-
-<!-- Using specific commit -->
+<!-- Using specific commit (recommended for production) -->
 <img src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@<commit-hash>/images/banner.jpg" alt="Banner">
 
-<!-- Using specific version/tag -->
+<!-- Using specific version/tag (recommended for production) -->
 <img src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@v1.0.0/images/icon.svg" alt="Icon">
+
+<!-- Using latest version (development only) -->
+<img src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@latest/images/logo.png" alt="Logo">
 ```
 
 **Videos:**
