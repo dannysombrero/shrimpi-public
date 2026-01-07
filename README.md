@@ -25,7 +25,7 @@ https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@latest/<path-to-file>
 **Images:**
 ```html
 <!-- Using specific commit (recommended for production) -->
-<img src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@<commit-hash>/images/banner.jpg" alt="Banner">
+<img src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@ed6c506/images/banner.jpg" alt="Banner">
 
 <!-- Using specific version/tag (recommended for production) -->
 <img src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@v1.0.0/images/icon.svg" alt="Icon">
@@ -36,13 +36,13 @@ https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@latest/<path-to-file>
 
 **Videos:**
 ```html
-<!-- Video element -->
+<!-- Video element with specific commit -->
 <video controls>
-  <source src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@latest/videos/intro.mp4" type="video/mp4">
+  <source src="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@ed6c506/videos/intro.mp4" type="video/mp4">
 </video>
 
-<!-- Direct link -->
-<a href="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@latest/videos/tutorial.mp4">Watch Tutorial</a>
+<!-- Direct link with specific tag -->
+<a href="https://cdn.jsdelivr.net/gh/dannysombrero/shrimpi-public@v1.0.0/videos/tutorial.mp4">Watch Tutorial</a>
 ```
 
 ### URL Options
