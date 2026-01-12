@@ -1,0 +1,25 @@
+# Handle line endings automatically
+* text=auto
+
+# Binary files - treat as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.svg binary
+*.mp4 binary
+*.webm binary
+*.mov binary
+*.avi binary
+*.mkv binary
+
+# Git LFS tracking (optional - can be enabled later if needed)
+# Uncomment these lines if you decide to use Git LFS
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.jpg filter=lfs diff=lfs merge=lfs -text
+# *.jpeg filter=lfs diff=lfs merge=lfs -text
+# *.gif filter=lfs diff=lfs merge=lfs -text
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
+# *.webm filter=lfs diff=lfs merge=lfs -text
